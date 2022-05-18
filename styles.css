@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 36px;
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+.text__color {
+   color:  purple;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.row     {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+/*
+
+NAV
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 36px;
+}
+
+
+
+.nav__link {
+   margin:  0 20px;
+   transition: all 300ms ease;
+}
+
+.nav__link:hover{
+    color: purple;
+
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+
+.login__link {
+    margin-left: 40px;
+}
+
+.sign-up__link {
+    background-color: rgba(100,21,255,);
+    border-radius: 30px;
+    padding: 8 20px;
+    
+}
+
+/*
+
+
+FRONT
+
+
+*/
+
+.parent {
+    padding: 0 30px ;
+   margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.frond__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.desk__img--wrapper {
+    width: 60%;
+    
+    display: flex;
+}
+.desk__img {
+   width: 100%;
+    
+}
+
+
+
+
+
+.subtitle {
+    margin: 30px 0 50px 0;
+    
+    font-weight: 300;
+
+}
